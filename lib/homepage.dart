@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-class Homepage extends StatelessWidget {
-  const Homepage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return  Scaffold(
       appBar: AppBar(
-        title: Text('My App')
+        title: Text('BOOK ME'),
+        backgroundColor: Color.fromARGB(255, 198, 166, 149),
       ),
       drawer: Drawer(),
         body: Center(
           child: Container(
-            child: Text('my first app'),
+            child: Text('hello this is my first App'),
           ),
         ),
       );

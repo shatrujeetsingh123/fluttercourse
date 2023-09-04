@@ -4,15 +4,14 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
-        title: Text('BOOK ME'),
-        backgroundColor: Color.fromARGB(255, 198, 166, 149),
+        title: Text('MyApp')
       ),
       drawer: Drawer(),
         body: Center(
           child: Container(
-            child: Text('hello this is my first App'),
+            child: Text('My App'),
           ),
         ),
       );
